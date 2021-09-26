@@ -1,0 +1,15 @@
+<mat-expansion-panel id="flow-zone" class="legend-accordion " cdkDrag >
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Legenda stref
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+
+  <div class="legend-body">
+    <div class="legend-element"  *ngFor="let zone of flowZoneList">
+      <div class="square" [ngStyle]="{'background-color' : zone.color}"> </div>
+      <div class="name" >{{zone.name}}</div>
+    </div>
+  </div>
+
+</mat-expansion-panel>

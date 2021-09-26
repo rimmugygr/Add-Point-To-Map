@@ -1,0 +1,55 @@
+.button-row {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.example-sidenav-content {
+  height: 100%;
+}
+
+.page-header {
+  display: block;
+  float: right;
+  min-height: 100%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.button {
+  background: #fff;
+  color: #0B4566;
+  border-radius: 0 !important;
+  min-width: 36px;
+  padding: 0;
+}
+
+.button-pressed {
+  background: #0B4566;
+  color: #fff;
+  border-radius: 0 !important;
+  min-width: 36px;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+.mat-expansion-panel {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.mat-expansion-panel-header {
+  order: 2;
+}
+
+::ng-deep .mat-expansion-panel-content > .mat-expansion-panel-body {
+  padding: 0 24px !important;
+}
+
+.mat-expansion-panel-header.mat-expanded {
+  height: 48px;
+}
+
+.legend-accordion {
+  position: absolute;
+  z-index: 100;
+  right: 50px;
+  top: 20px;
+}
+
+
+
+.legend-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.legend-element {
+  margin: 3px;
+}
+
+.name {
+  float:right;
+  text-align: right;
+}
+
+.circle {
+  margin-left: 3px;
+  float:right !important;
+  border-radius: 50% !important;
+  height: 20px!important;
+  width: 20px!important;
+}
+

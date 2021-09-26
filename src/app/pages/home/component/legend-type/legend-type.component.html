@@ -1,0 +1,16 @@
+<mat-expansion-panel class="legend-accordion" cdkDrag >
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Legenda przepływu
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+
+ <div class="legend-body">
+   <div class="legend-element" *ngFor="let type of flowTypeList">
+     <div class="circle" [ngStyle]="{'border' : '5px solid ' + type.color}"> </div>
+     <div class="name" >{{type.name}}</div>
+   </div>
+ </div>
+
+
+</mat-expansion-panel>

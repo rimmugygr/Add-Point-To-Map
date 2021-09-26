@@ -1,0 +1,70 @@
+
+<form [formGroup]="form">
+
+  <div  class="container">
+    <div class="mat-title text-title">
+      <i class='fas fa-arrow-left'> </i> Przepływomierz
+    </div>
+  </div>
+
+  <mat-divider></mat-divider>
+
+  <div  class="container">
+    <div class="text-normal">
+      <div class="text-title">Instrukcja</div>
+      <div>Wypełnij dane i kliknij przycisk<br>
+        <span class="text-highlighted"> dodaj punkt </span>. Następnie wybierz <br>
+        punkt na mapie i kliknij <span class="text-highlighted">zatwierdź. </span>
+      </div>
+    </div>
+  </div>
+
+  <mat-divider></mat-divider>
+
+  <div  class="container">
+    <div class="text-title">
+      Dodaj nowy przepływomierz
+    </div>
+
+    <div>
+      <mat-form-field appearance="legacy">
+        <mat-label>Nazwa</mat-label>
+        <input matInput placeholder="Przykładowa nazwa" formControlName="name">
+        <mat-error>To pole jest wymagane</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field  appearance="legacy">
+        <mat-label>Typ</mat-label>
+        <mat-select formControlName="type">
+          <mat-option *ngFor="let type of flowTypeList" [value]="type.name">{{type.name}}</mat-option>
+        </mat-select>
+        <mat-error>Wybierz typu wymagany</mat-error>
+      </mat-form-field>
+    </div>
+
+
+    <div>
+      <mat-form-field appearance="legacy">
+        <mat-label>średnia Warość Przpływu [m3/dzień]</mat-label>
+        <input matInput placeholder="" formControlName="zone">
+        <mat-error>0-100 wartość, puste gdy brak</mat-error>
+      </mat-form-field>
+    </div>
+
+
+    <div class="column">
+      <button mat-stroked-button class="button button-first" type="reset"
+              (click)="resetAddPoint()">Wyczyść
+      </button>
+      <button mat-raised-button class="button-filed button-last" type="submit"
+              *ngIf="isAddPointButton" (click)="submitForm()">Dodaj Punkt
+      </button>
+      <button mat-raised-button class="button-filed button-last" type="reset"
+              *ngIf="isAcceptedButton" (click)="acceptPoint()">Zatwierdź
+      </button>
+    </div>
+  </div>
+  <mat-divider></mat-divider>
+</form>

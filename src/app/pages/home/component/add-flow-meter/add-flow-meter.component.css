@@ -1,0 +1,54 @@
+.text-normal {
+  color: #0B4566;
+}
+
+.mat-title {
+  margin-left: 8px !important;
+}
+
+.text-title {
+  margin: 16px 0 16px 0;
+  color: #0B4566;
+  font-weight: bold;
+}
+
+.text-highlighted {
+  color: #00A4EC;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+}
+
+.button-first {
+  margin-right: 8px;
+}
+
+.button-last {
+  margin-left: 8px;
+}
+
+.button {
+  border: 2px solid #00A4EC !important;
+  background: #fff;
+  color: #00A4EC;
+}
+
+.button-filed {
+  border: 1px solid #00A4EC !important;
+  background: #00A4EC;
+  color: #fff;
+}
+
+.container {
+  padding: 0 !important;
+  margin: 16px 16px 16px 16px !important;
+}
+
+
+.mat-form-field {
+ min-width: 220px;
+}
+
+

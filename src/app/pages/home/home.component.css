@@ -1,0 +1,32 @@
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+.text-normal {
+  color: #0B4566;
+}
+
+.text-title {
+  color: #0B4566;
+  font-weight: bold;
+}
+
+.mat-expansion-panel {
+  z-index: 200;
+}
+.mat-expansion-panel {
+  max-width: 250px;
+}
+
+.vertical-center {
+  margin: 0;
+  top: 10px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}

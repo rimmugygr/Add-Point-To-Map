@@ -1,0 +1,51 @@
+
+[
+  {
+    "name": "brak",
+    "color": "#DBE4E9"
+  },
+  {
+    "name": "0",
+    "color": "#4DFF4D"
+  },
+  {
+    "name": "10",
+    "color": "#5FE645"
+  },
+  {
+    "name": "20",
+    "color": "#71CC3E"
+  },
+  {
+    "name": "30",
+    "color": "#82B336"
+  },
+  {
+    "name": "40",
+    "color": "#94992E"
+  },
+  {
+    "name": "50",
+    "color": "#A68027"
+  },
+  {
+    "name": "60",
+    "color": "#B8661F"
+  },
+  {
+    "name": "70",
+    "color": "#CA4C17"
+  },
+  {
+    "name": "80",
+    "color": "#DB330F"
+  },
+  {
+    "name": "90",
+    "color": "#ED1908"
+  },
+  {
+    "name": "100",
+    "color": "#FF0000"
+  }
+]

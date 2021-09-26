@@ -1,0 +1,35 @@
+
+[
+  {
+    "name": "Przepływ nieznany",
+    "color": "#B9B9B9"
+  },
+  {
+    "name": "Przepływ - SUW/ZUW",
+    "color": "#23DD27"
+  },
+  {
+    "name": "Przepływ - Zbiornik",
+    "color": "#D04000"
+  },
+  {
+    "name": "Przepływ międzystrefowy",
+    "color": "#0B4566"
+  },
+  {
+    "name": "Sprzedaż - Online",
+    "color": "#03D7A7"
+  },
+  {
+    "name": "Sprzedaż - odczyt co 12h",
+    "color": "#BB03D7"
+  },
+  {
+    "name": "Sprzedaż - odczyt ręczny",
+    "color": "#790000"
+  },
+  {
+    "name": "Przepływ wirtualny",
+    "color": "#000000"
+  }
+]

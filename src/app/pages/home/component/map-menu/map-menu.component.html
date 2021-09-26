@@ -1,0 +1,50 @@
+
+<mat-drawer-container class="button-row" autosize>
+
+  <mat-drawer #drawer class="example-sidenav" mode="side" position="end">
+     <app-flow-meter></app-flow-meter>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+
+
+    <div>
+      <app-map></app-map>
+
+      <div class="page-header">
+
+        <div>
+          <button class="button" type="button" mat-button>
+            <span class="material-icons">navigation</span>
+          </button>
+        </div>
+
+        <div>
+          <button class="button" type="button" mat-button>
+          <span class="material-icons">add</span>
+          </button>
+        </div>
+
+        <div>
+          <button class="button" type="button" mat-button>
+          <span class="material-icons">remove</span>
+          </button>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <div class="vertical-center">
+          <button  type="button" mat-button
+                   [ngClass]="libraryAddPressed ? 'button-pressed' : 'button'"
+                   (click)="libraryAddPressed = !libraryAddPressed; drawer.toggle()">
+          <span class="material-icons">library_add</span>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</mat-drawer-container>
+
